@@ -11,11 +11,104 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 h1 {
     color: #383838;
     font-family: 'Lato', sans-serif;
-    border-bottom: solid 5px #E07D4A;
-    text-underline-position: above;
+    font-size: 2rem;
+   /* border-bottom: solid 5px #E07D4A;
+    text-underline-position: above;*/
 }
 /*Fix underline so it overlaps with text and only takes up width of text*/
 
+h2 {
+    color: #383838;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    padding: 2% 0 2% 0;
+    font-size: 1.5rem;
+}
+
+p {
+    color: #383838;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    padding: 2% 0 2% 0;
+    font-size: 1.5rem;
+    margin: auto;
+    text-align: center;
+}
+
+.foodname {
+    color: #E8DCBF;
+    font-style: italic;
+}
+
+.textsection {
+    display: block;
+    margin: auto;
+    padding-right: 3%;
+}
+/*Try to make bread text one line*/
+
+.sidetext {
+    text-align: right;
+}
+
+
 body {
-    margin: 5% 10% 5% 10%;
+    margin: 5% 20% 5% 20%;
+    background-color: #E8DCBF;
+}
+
+.food1 {
+    background-color: #E07D4A;
+    border: 3px solid #A25734;
+    border-radius: 10px;
+    display: flex;
+    margin: 2% 0 2% 0;
+}
+
+.food2 {
+    background-color: #E07D4A;
+    border: 3px solid #A25734;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 1% 0 1% 0;
+    text-align: center;
+    width: 48%;
+}
+
+.double {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+img {
+    max-width: 50%;
+    border-radius: 10px;
+    padding: 3%;
+}
+/*Get border radius to apply to all images*/
+
+button {
+    text-decoration: none;
+    color: #E8DCBF;
+    margin: auto;
+    display: block;
+    text-align: center;
+    background-color: #E07D4A;
+    padding: 1% 2% 1% 2%;
+    border-radius: 10px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #E8DCBF;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #E8DCBF;
+}
+
+a:hover {
+    color: #383838;
 }
