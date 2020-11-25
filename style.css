@@ -5,5 +5,17 @@
 }
 
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
-    display:block;
+    display: block;
+}
+
+h1 {
+    color: #383838;
+    font-family: 'Lato', sans-serif;
+    border-bottom: solid 5px #E07D4A;
+    text-underline-position: above;
+}
+/*Fix underline so it overlaps with text and only takes up width of text*/
+
+body {
+    margin: 5% 10% 5% 10%;
 }
